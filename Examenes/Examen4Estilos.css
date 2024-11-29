@@ -1,0 +1,65 @@
+body {
+    background-color: #f4f4f4;
+    font-family: sans-serif;
+  }
+  
+  header {
+    border: solid;
+    background-color: #002858;
+    min-height: 20vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  header div#cabeza {
+    text-align: center;
+  }
+  
+  h2 {
+    color: #ffc836;
+  }
+  
+  section#formulario {
+    text-align: center;
+  }
+  
+  section#formulario div.inner {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 10px;
+    height: auto;
+  }
+  
+  section#formulario div.inner div.row {
+    border: solid #002858;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    border-radius: 8px;
+    box-shadow: 0px 0px 8px black;
+    min-height: 8vh;
+    margin: 10px;
+    padding: 10px; /*separacion entre el borde y el texto*/
+    gap: 10px; /*separacion entre el contenido del div*/
+  }
+  
+  button {
+    background-color: #ffc836;
+    border-radius: 3px;
+    transition: 1s;
+  }
+  
+  button:hover {
+    background-color: white;
+  }
+  
+  form {
+    /*hacer que tenga forma de piramide inversa*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
