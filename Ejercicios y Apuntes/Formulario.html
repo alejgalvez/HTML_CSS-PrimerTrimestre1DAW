@@ -1,0 +1,24 @@
+<!--<p>FORMULARIOS</p>-->
+
+<h2>Reserva de restaurante</h2>
+<!--<p>Crea como un formulario dentro de una pagina. El method puede ser get("es el estandar") o post</p>-->
+<form action="https://edit.org/edit" target="_blank" method="get">
+  <fieldset>
+    <!--<p> Crea cajas para cerrar las celdas</p>-->
+    <Legend><strong>Datos de contacto</strong></Legend>
+    <!--<p> Crea celdas para rellenar</p>-->
+    <p>
+      <label for="Nombre">Nombre: <br></label>
+      <!--<p>Te mete dentro de la celda si pinchas en nombre</p>-->
+      <input id="Nombre">
+    </p>
+    <p>Apellido: <br><input name "Apellido"></p>
+  </fieldset>
+  <fieldset>
+    <legend>Datos de reserva</legend>
+    <p>Nº de personas: <br><input type="number" name="Personas" min="1" max="10"> </input></p>
+    <p>Fecha: <br><input type="datetime-local" name "Fecha"></p <p>Email: <br><input type="Email" name "Email"></p>
+  </fieldset>
+  <!--<p>Boton de Enviar</p>-->
+  <button>Enviar</button>
+</form>

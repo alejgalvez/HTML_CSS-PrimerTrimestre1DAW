@@ -1,0 +1,72 @@
+<h2>Pedido de pizza</h2>
+
+<form action="https://debug.wiweb.es" target="_blank">
+  
+  <fieldset>
+    <legend>La Pizza</legend>
+    <p>Ingredientes</p>
+    <p>
+      <input type="checkbox" id="queso" name="queso">
+      <label for="queso">Queso</label>
+    </p>
+
+    <p>
+      <input type="checkbox" id="pimiento" name="pimiento">
+      <label for="pimiento">Pimiento</label>
+    </p>
+
+    <p>
+      <input type="checkbox" id="cebolla" name="cebolla">
+      <label for="cebolla">Cebolla</label>
+    </p>
+
+    <p>Tamaño</p>
+
+    <p>
+      <input type="radio" id="pequeña" name="tamaño" value="S">
+      <label for="pequeña">Pequeña</label>
+    </p>
+
+    <p>
+      <input type="radio" id="mediana" name="tamaño" value="M">
+      <label for="mediana">Mediana</label>
+    </p>
+
+    <p>
+      <input type="radio" id="grande" name="tamaño" value="L">
+      <label for="grande">Grande</label>
+    </p>
+  </fieldset>
+
+  <fieldset>
+    <legend>Datos de entrega</legend>
+
+    <p>
+      <label for="nombre">Nombre</label>
+      <input type="text" id="nombre" name="nombre">
+    </p>
+    <p>
+      <label for="direccion">Dirección</label>
+      <input type="text" id="direccion" name="direccion">
+    </p>
+    <p>
+      <label for="telefono">Teléfono</label>
+      <input type="tel" id="telefono" name="telefono">
+    </p>
+
+    <p>
+      <label for="instrucciones">Instrucciones especiales</label><br>
+      <textarea id="instrucciones" rows="10" cols="30" placeholder="Escribe aqui..."></textarea>
+    </p>
+
+  </fieldset>
+  <fieldset>
+    <legend>Método de pago</legend>
+
+    <select name="pago" id="pago" name="metodo">
+      <option value="cash">Efectivo</option>
+      <option value="card">Tarjeta</option>
+    </select>
+  </fieldset>
+  <button>Ok</button>
+</form>
